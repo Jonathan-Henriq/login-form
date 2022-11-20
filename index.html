@@ -10,25 +10,32 @@
 </head>
 <body>
     <main>
-        
+        <header><img src="imagens/logo.svg" alt="logo-acampamento"></header>
        <section class="background">
        </section>
         <section>
-            <header><img src="imagens/logo.svg" alt="logo-acampamento"></header>
+            
             <div class="login">
             <form action="login.php" method="post">
-                <h1><img src="imagens/log-in.svg" alt="logo-login"> Faça seu logon</h1>
+                <h1><img src="imagens/log-in.svg" alt="logo-login"> Faça seu login</h1>
                 <p>Entre com suas informações de cadastro.</p>
+
                 <label for="iemail">
                     <p>E-mail</p>
                 </label>
                 <input type="email" name="email" id="iemail" placeholder="Digite seu e-mail" required>
+
                 <label for="isenha">
                     <p>Senha</p>
                 </label>
-                <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" required minlength="6">  <br>
-                    <input type="checkbox" name="lemb" id="ilemb"><label for="ilemb">Lembre-me</label>  <a href="#">Esqueci minha senha</a> <br>
-                <button type="submit">Entrar</button>
+                <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" required minlength="6">  
+
+                <span class="check-resetpass">
+                    <p><input type="checkbox" name="lemb" id="ilemb">
+                    <label for="ilemb" style="color:#afb6c2;">Lembre-me</label>  <a href="#">Esqueci minha senha</a></p>
+                </span> 
+                    
+                <button class=button-entrar type="submit"><a href="#" style="color: black;">ENTRAR</a></button>
                 <p>Não tem uma conta? <a href="#">Registre-se</a></p>
             </form>
         </div>

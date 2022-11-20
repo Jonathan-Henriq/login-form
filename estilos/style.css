@@ -16,6 +16,13 @@ font-family: 'Roboto', sans-serif;*/
     --form-background: #24221f;
     --primary-color: #ffc632;
   }
+  p{
+    font-family: 'Roboto', sans-serif;
+  }
+  a{
+    text-decoration: none;
+    color: var(--primary-color);
+  }
 
   main{
     width: 100vw;
@@ -25,7 +32,8 @@ font-family: 'Roboto', sans-serif;*/
   }
   header{
     width: 50vw;
-    background-color: azure;
+    background-color: rgba(240, 255, 255, 0.836);
+    float: left;
   }
 
   section.background{
@@ -39,18 +47,81 @@ font-family: 'Roboto', sans-serif;*/
   }
 
   section{
-    float: left;
     width: 50%;
     height: 100%;
-    background-color: aquamarine;
-    
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   section>div.login{
-    background-color: #ffc632;
+    background-color: grey;
     width: 572px;
     height: 512px;
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  form{
+    background-color: rgba(137, 43, 226, 0.342);
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     
     
   }
+  form>h1{
+    color: var(--text-title);
+    font-family:'Poppins', sans-serif;
+    font-size: 1.8em;
+    margin: 0px auto 1px auto;
+  }
+
+  form>p{
+    color: var(--text-base);
+    font-size: .8em;
+    margin: 0px auto 25px auto;
+  }
+
+  form>input{
+    width: 70%;
+    height: 6.5%;
+    margin: 2px auto;
+    background-color: var(--background);
+    color: var(--text-base);
+    text-indent: 24px;
+    border: none;
+    border-radius: 8px;
+  }
+
+  form>label{
+    margin: 2px 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: var(--text-base);
+  }
+
+  span.check-resetpass>p{
+    font-size: .8em;
+    padding: 15px 65px;
+    
+  }
+  span.check-resetpass>p>a{
+    float: right;
+  }
+
+  
+  .button-entrar{
+    width: 70%;
+    height: 8%;
+    margin: 32px auto 10px auto;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--primary-color);
+    font-family:'Poppins', sans-serif;
+    
+  }
+  
