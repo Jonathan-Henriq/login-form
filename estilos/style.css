@@ -1,0 +1,47 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap');
+
+/*font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-base: #afb6c2;
+    --text-title: #d4ccb6;
+    --background: #191816;
+    --form-background: #24221f;
+    --primary-color: #ffc632;
+  }
+
+  main{
+    width: 100vw;
+    height: 100vh;
+    max-height: 100%;
+    overflow: hidden;
+  }
+  header{
+    width: 50vw;
+    background-color: azure;
+  }
+
+  section.background{
+    width: 50%;
+    height: 100%;
+    float: right;
+    background: url('../imagens/side-image.jpg')no-repeat right;
+    background-attachment: fixed;
+    background-size: 50% 100%;
+    
+  }
+
+  section{
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-color: aquamarine;
+    
+  }

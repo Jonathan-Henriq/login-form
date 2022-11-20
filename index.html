@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/style.css">
+    <title>Login</title>
+</head>
+<body>
+    <main>
+        
+       <section class="background">
+       </section>
+        <section>
+            <div>
+            <header><img src="imagens/logo.svg" alt="logo-acampamento"></header>
+            <form action="login.php" method="post">
+                <h1><img src="imagens/log-in.svg" alt="logo-login"> Faça seu logon</h1>
+                <p>Entre com suas informações de cadastro.</p>
+                <label for="iemail">
+                    <p>E-mail</p>
+                </label>
+                <input type="email" name="email" id="iemail" placeholder="Digite seu e-mail" required>
+                <label for="isenha">
+                    <p>Senha</p>
+                </label>
+                <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" required minlength="6">  <br>
+                    <input type="checkbox" name="lemb" id="ilemb"><label for="ilemb">Lembre-me</label>  <a href="#">Esqueci minha senha</a> <br>
+                <button type="submit">Entrar</button>
+                <p>Não tem uma conta? <a href="#">Registre-se</a></p>
+            </form>
+        </div>
+        </section>
+    </main>
+</body>
+</html>
