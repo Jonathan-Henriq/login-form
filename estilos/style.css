@@ -32,7 +32,8 @@ font-family: 'Roboto', sans-serif;*/
   }
   header{
     width: 50vw;
-    background-color: rgba(240, 255, 255, 0.836);
+    padding: 30px;
+    background-color: var(--background);
     float: left;
   }
 
@@ -49,22 +50,25 @@ font-family: 'Roboto', sans-serif;*/
   section{
     width: 50%;
     height: 100%;
-    background-color: azure;
+    background-color: var(--background);
     display: flex;
     justify-content: center;
     align-items: center;
+    
   }
 
   section>div.login{
-    background-color: grey;
+    background-color: var(--form-background);
     width: 572px;
     height: 512px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
+    margin-top: -150px;
   }
   form{
-    background-color: rgba(137, 43, 226, 0.342);
+    background-color: var(--form-background);
     width: 70%;
     height: 100%;
     display: flex;
