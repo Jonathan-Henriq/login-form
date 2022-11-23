@@ -96,10 +96,51 @@ font-family: 'Roboto', sans-serif;*/
     margin: 2px auto;
     background-color: var(--background);
     color: var(--text-base);
-    text-indent: 24px;
+    text-indent: 32px;
     border: none;
     border-radius: 8px;
+    
   }
+  
+
+  form>input.ic-email{
+    background-image: url('../imagens/mail.svg');
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: left center;
+    background-position-x: 10px;
+  }
+
+  form>input.ic-email:focus{
+    background-image: url('../imagens/mail-focus.svg');
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: left center;
+    background-position-x: 10px;
+    outline: 2px solid var(--primary-color);
+    
+  }
+
+  form>input.ic-pass{
+    background-image: url('../imagens/lock.svg');
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: left center;
+    background-position-x: 10px;
+  }
+
+  form>input.ic-pass:focus{
+    background-image: url('../imagens/lock-focus.svg');
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: left center;
+    background-position-x: 10px;
+    outline: 2px solid var(--primary-color);
+  }
+i.ic{
+  width: 15px;
+}
+  
 
   form>label{
     margin: 2px 50px;
@@ -107,6 +148,7 @@ font-family: 'Roboto', sans-serif;*/
     padding-left: 10px;
     color: var(--text-base);
   }
+
 
   span.check-resetpass>p{
     font-size: .8em;
@@ -116,6 +158,8 @@ font-family: 'Roboto', sans-serif;*/
   span.check-resetpass>p>a{
     float: right;
   }
+
+  
 
   
   .button-entrar{

@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 375px) and (max-width: 812px){
+    main{
+        background-color: black;
+    }
+
+    section.background{
+        display: none;
+    }
+    header{
+        width: 100%;
+    }
+    
+    section{
+        width: 100%;
+    }
+
+    section>div.login {
+        width: 95%;
+        height: 60%;
+    }
+    form>label{
+        margin: 2px 0px;
+        padding-top: 10px;
+        padding-left: 2px;
+        
+      } 
+
+    form>input{
+        width: 100%;
+        height: 9%;
+    }
+
+    span.check-resetpass>p{
+        font-size: .8em;
+        padding: 15px 15px;
+        
+      }
+
+      .button-entrar{
+        width: 100%;
+      }
+
+}
